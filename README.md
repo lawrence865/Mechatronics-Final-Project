@@ -7,7 +7,7 @@ pool table. The system will be capable of identifying pool balls by color, sorti
 the table. The table uses a 3 axis gantry system with a claw to grab and move balls to desired locations for sorting, organizing, and re-racking. This project uses VEX and is coded with C++ in the VEX IDE
 
 PARTS:
-- A fully customized table shrinken in proportions to regular pool tables with a collection ramp system built beneath the table, made of wood
+- A fully customized table scaled-down in proportions to regular pool tables with a collection ramp system built beneath the table, made of wood
 - A Gantry system with tracks in the X, Y, Z direction driven by motors, with motor encoders
 - A claw with color sensor, bumper sensor, and controllor mounted on its cases, used to pick up and release balls into its proper location in the automated process
 - A ball collection ramp with doors above the table tjat stores all balls until it is ready for re-racking
