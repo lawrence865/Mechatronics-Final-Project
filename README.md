@@ -2,10 +2,9 @@
 
 OVERVIEW:
 In billiards or pool games you must reset the table after each round. Currently, this is a fully manual process, a player must sort them, re-rack them and then   
-reset them before play can resume. This project is a robotic/mechatronic system that automates the sorting and resetting of pool balls on a custom made mini portable 
+reset them before play can resume. I worked in a group of four to creat a robotic/mechatronic system that automates the sorting and resetting of pool balls on a custom made mini portable 
 pool table. The system will be capable of identifying pool balls by color, sorting them in play order, and placing them into the traditional triangular arrangement on 
-the table. The end goal is to create a device that can manage sorting and resetting a game of pool with no human intervention while still being portable and playable.
-The table uses a 3 axis gantry system with a claw to grab and move balls to desired locations for sorting, organizing, and re-racking. 
+the table. The table uses a 3 axis gantry system with a claw to grab and move balls to desired locations for sorting, organizing, and re-racking. This project uses VEX and is coded with C++ in the VEX IDE
 
 PARTS:
 - A fully customized table shrinken in proportions to regular pool tables with a collection ramp system built beneath the table, made of wood
@@ -15,8 +14,8 @@ PARTS:
 
 PROCESS (MY ROLE):
 The Claw: 
-Designed and 3D modelled SolidWorks parts and assemblies for the claw subsystem. This includes the front case, back case, and the claw arms. 
-Used c++ and VEX IDD to code the functions that allowed the claw to run on unknown parameters that allowed for easier integration and a more organized structure. Functions include:
+Fully designed and 3D modelled SolidWorks parts and assemblies for the claw subsystem. This includes the front case, back case, and the claw arms. 
+Coded functions that allowed the claw to run on various different parameters which allowed for easier integration and a more organized structure. Functions include:
 - Opening and closing function
 - Applying constant torque
 - Sensor input Functions
@@ -24,7 +23,7 @@ Used c++ and VEX IDD to code the functions that allowed the claw to run on unkno
 - Helper function that preformed mathematical processing used for sorting
 
 The table and ramp: 
-I created the design and SolidWorks CAD for the ramp and attached it to the table in an assembly. I was also a part of the manufacturing process of the table. 
+Created the design and SolidWorks CAD for the ramp and attached it to the table in an assembly. I was also a part of the manufacturing process of the table. 
 This includes:
 - Using the drill press to drill the pockets in the table
 - Using hand drills and clamps to drill holes for fastener
